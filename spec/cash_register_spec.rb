@@ -13,7 +13,7 @@ describe 'CashRegister' do
   end
 
   describe '#total' do
-    it 'returns the current total' do
+    it 'returns the current total' do |x|
       cash_register.total = 100
       expect(cash_register.total).to eq(100)
     end
